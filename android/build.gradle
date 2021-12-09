@@ -118,7 +118,7 @@ repositories {
 dependencies {
   //noinspection GradleDynamicVersion
   implementation 'com.facebook.react:react-native:+'
-  implementation "com.scottyab:secure-preferences-lib:0.1.4"
+  implementation "com.scottyab:secure-preferences-lib:0.1.7"
   implementation 'com.google.code.gson:gson:2.8.6'
 
   def rnAAR = fileTree(reactNativeDir.toString()).matching({ it.include "**/**/*.aar" }).singleFile
